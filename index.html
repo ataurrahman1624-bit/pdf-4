@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Job Sheet 2 | CSS Layout & Design Mastery</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<div class="container">
+  <header class="site-header">
+    <div class="logo">
+      <h1>LAYOUT LAB</h1>
+      <p>CSS Grid • Flex • Box Model • Positioning</p>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-grid">
+    <div class="content-primary">
+      <h2>Design-driven solutions</h2>
+      <div class="section-desc">
+        Implementing modern CSS: responsive grid, flex components, and advanced styling. 
+        Box model & positioning bring depth and clarity.
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <img class="card-img" src="https://picsum.photos/id/20/400/220" alt="modern workspace desk" loading="lazy">
+          <div class="card-content">
+            <h3>Responsive Layouts</h3>
+            <p>Master Grid & Flexbox to craft elastic web interfaces. Box-model spacing with precise positioning.</p>
+            <a href="#" class="btn btn-primary">Discover →</a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="https://picsum.photos/id/26/400/220" alt="creative design tools">
+          <div class="card-content">
+            <h3>Advanced Box Model</h3>
+            <p>Padding, borders, margins and shadows. Relative container — absolute badge for modern UX.</p>
+            <a href="#" class="btn btn-outline">Explore →</a>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="https://picsum.photos/id/0/400/220" alt="coding session">
+          <div class="card-content">
+            <h3>Typography & Spacing</h3>
+            <p>Careful letter-spacing, line-height, font weights. Improves readability & visual hierarchy.</p>
+            <a href="#" class="btn btn-primary">Learn →</a>
+          </div>
+        </article>
+      </div>
+      <div style="margin-top: 2rem; padding: 1rem 0;">
+        <p style="font-size:0.9rem;">✨ <strong>Interactive links & buttons:</strong> <a href="#" class="demo-link">hover me</a> — smooth transition effects. Fully styled UI.</p>
+      </div>
+    </div>
+    <aside class="sidebar">
+      <div class="form-card">
+        <h3>Get in touch</h3>
+        <p>Send a message — Styled inputs, focus ring, and modern button.</p>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" placeholder="Alex Johnson" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="hello@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea id="msg" rows="3" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">Send message →</button>
+        </form>
+      </div>
+      <div class="info-block">
+        <img src="https://picsum.photos/id/169/300/200" alt="mountain landscape minimalist">
+        <h4>Visual harmony</h4>
+        <p>Images with border-radius, shadow, hover scaling. Perfect integration.</p>
+        <a href="#" class="btn btn-outline">View gallery →</a>
+      </div>
+      <div>
+        <p>📐 CSS Positioning demo</p>
+        <p>The badges on cards use <strong>relative container + absolute</strong>. This shows real-world positioning & layering. Box model: each card uses margin, padding, border.</p>
+      </div>
+    </aside>
+  </div>
+  <footer class="site-footer">
+    <div class="copyright">
+      © 2025 CSS Layout Mastery — Job Sheet 2 | Implementing CSS for Web Layout & Design
+    </div>
+    <div class="footer-links">
+      <a href="#">Accessibility</a>
+      <a href="#">Style Guide</a>
+      <a href="#">GitHub</a>
+      <a href="#">Dribbble</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
